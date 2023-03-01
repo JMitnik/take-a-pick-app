@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "module": "es2020",
+      "target": "es5",
+      "lib": [
+          "dom",
+          "es2019"
+      ],
+      "jsx": "react-jsx",
+      "moduleResolution": "node",
+      "baseUrl": "./",
+      "allowSyntheticDefaultImports": true,
+      "types": ["vite/client"],
+      "resolveJsonModule": true,
+      "strict": true,
+      "plugins": [
+        { "name": "typescript-plugin-css-modules" }
+      ],
+    },
+    "include": ["resources/js/**/*"]
+  }
